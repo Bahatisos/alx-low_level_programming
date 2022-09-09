@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <stdlib.h>
 
 #include <time.h>
@@ -43,19 +42,19 @@ int main(void)
 
 	}
 
-	else if (n == 0)
-
-	{
-
-			printf("%i is zero\n", n);
-
-	}
-
 	else if (n < 0)
 
 	{
 
 			printf("%i is negative\n", n);
+
+	}
+
+	else  (n == 0)
+
+	{
+
+			printf("%i is zero\n", n);
 
 	}
 
