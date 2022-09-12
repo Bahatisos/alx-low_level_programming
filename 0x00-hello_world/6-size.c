@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-/*main - print the sring in the out function
+/**
+ * main - print the string in the out function
  *
  * Description using the put function
  * this program prints "Programming is like building a multilingual puzzle
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
