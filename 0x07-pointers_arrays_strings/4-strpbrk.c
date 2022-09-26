@@ -13,10 +13,13 @@ char *_strpbrk(char *s, char *accept)
 
 	for (i = 0; s[i]; i++)
 	{
-		if (s[i] == accept[j])
-			break;
+		for (j = 0; accept[j]; j++) 
+		{
+			if (s[i] == accept[j])
+				break;
+		}
+		if (accept[j])
+			return (s + i);
 	}
-	if (accept[j])
-		return (s + i);
-	return (0);
+	return (0)
 }	
