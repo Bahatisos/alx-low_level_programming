@@ -15,7 +15,7 @@ char *_strdup(char *str)
 	char *cpy;
 	int index, len;
 
-	if (str == Null)
+	if (str == NULL)
 		return (NULL);
 
 	for (index = 0; str[index]; index++)
